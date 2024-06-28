@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- icons link -->
+	<script src="https://kit.fontawesome.com/99b3b283e0.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<!-- HEADER  -->
+		
+	<header class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-inner">
+					<!-- <div class="header-pendiente">
+						<address>
+							<a aria-label="Chat on WhatsApp" class="header_link_whatsapp" href="https://wa.me/1XXXXXXXXXX" target="_blank">
+								<i class="fa-brands fa-whatsapp"></i>
+								<span class="header-whatsapp__text">Haga su pedido<br> en WhatsApp</span>
+							</a>
+						</address>
+					</div> -->
+					<address class="header-social">
+						<ul class="social_icon_list">
+							<li class="social_icon_item facebook-icon">
+								<a href="https://facebook.com/" class="social_icon_link" target="_blank">
+									<i class="fa-brands fa-facebook-f"></i>
+									<!-- <span class="header-social__text">Facebook</span> -->
+								</a>
+							</li>
+							<li class="social_icon_item instagram-icon">
+								<a href="//https://www.instagram.com/" class="social_icon_link" target="_blank">
+									<i class="fa-brands fa-instagram"></i>
+									<!-- <span class="header-social__text">Instagram</span> -->
+								</a>
+							</li>
+							<li class="social_icon_item youtube-icon">
+								<a href="https://www.youtube.com/" class="social_icon_link" target="_blank">
+									<i class="fa-brands fa-youtube"></i>
+									<!-- <span class="header-social__text">YouTube</span> -->
+								</a>
+							</li>
+							<li class="social_icon_item tiktok-icon">
+								<a href="https://www.tiktok.com/" class="social_icon_link" target="_blank">
+									<i class="fa-brands fa-tiktok"></i>
+									<!-- <span class="header-social__text">TikTok</span> -->
+								</a>
+							</li>
+						</ul>
+					</address>
+
+					<address>
+						<a aria-label="Chat on WhatsApp" class="header_link_whatsapp" href="https://wa.me/1XXXXXXXXXX" target="_blank">
+							<i class="fa-brands fa-whatsapp"></i>
+							<span class="header-whatsapp__text">Haga su pedido</span>
+						</a>
+					</address>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-mid">
+			<div class="container">
+				<!-- NAV  -->
+				<nav class="nav">
+
+					<!-- LOGO  -->
+					<a href="#inicio" class="logo">
+						<img src="images/mama-charito.png" class="logo-img" alt="logo">
+						<span>CHARITO</span>
+					</a>
+
+					<!-- NAV COLLAPSE -->
+
+					<div class="nav-group">
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<i class="fa-solid fa-bars"></i>
+								<!-- <span class="navbar-toggler-icon"></span> -->
+							</button>
+							<ul class="navbar-list">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Nuestra granja</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Quiénes somos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link disabled" href="#">Dirección</a>
+								</li>
+							</ul>
+						</div>
+	
+						<!-- CART ICON  -->
+						<div class="cart-icon-wrap">
+							<i class="fa-solid fa-basket-shopping" id="cart-icon"></i>
+							<span id="count">0</span>
+						</div>
+					</div>
+	
+					<!-- LO SIGUIENTE ES PARA ABRIR EL MENU -->
+					<nav class="open_menu abrir">
+						<li class="nav-item nav-item-home-test">
+							<a href="#inicio" class="nav-link-test home-test">inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#Nuestra granja" class="nav-link-test">Nuestra granja</a>
+						</li>
+						<li class="nav-item">
+							<a href="#Quiénes somos" class="nav-link-test">Quiénes somos</a>
+						</li>
+						<li class="nav-item">
+							<a href="#Dirección" class="nav-link-test">Dirección</a>
+						</li>
+					</nav>
+
+					<div class="cart-background"></div>
+	
+					<!-- CART  -->
+					<div class="cart">
+						<h2 class="cart-title">Mis Compras</h2>
+	
+						<!-- CONTENT  -->
+						<div class="cart-content">
+							<h3 class="cart-empty-title">Canasta vacía</h3>
+	
+						</div>
+	
+						<!-- TOTAL   -->
+						<div class="total">
+							<div class="total-title">Total</div>
+							<div class="total-price" id="total_cost">$0</div>
+						</div>
+						<!-- BUY BUTTON  -->
+						<button type="button" class="btn-buy">Comprar Ahora</button>
+						<!-- CART CLOSE  -->
+						<i class="fa-solid fa-xmark" id="cart-close"></i>
+					</div>
+				</nav>
+			
+			</div>
+		</div>
+	</header>
+
+			<!-- FOTO DE FONDO -->
+	<section class="bg-img">
+			<picture>
+				<!-- <source media="(min-width: 992px)" srcset="images/bg-2.jpg" type="image/jpg">
+				<source media="(min-width: 768px)" srcset="images/medium1.jpg" type="image/jpg">
+				<source media="(min-width: 320px)" srcset="images/small.jpg" type="image/jpg"> -->
+				<source media="(min-width: 768px)" srcset="images/bg-2.jpg" type="image/jpg">
+				<source media="(min-width: 576px)" srcset="images/medium1.jpg" type="image/jpg">
+				<source media="(min-width: 320px)" srcset="images/small.jpg" type="image/jpg">
+				<img src="images/bg-2.jpg" alt="" class="fondo-img">
+			</picture>
+			<!-- <img src="images/bg-2.jpg" alt="" class="fondo-img"> -->
+			<div class="container bg-desc-container">
+				<div class="bg-desc reveal active fade-left">
+					<p class="bg-desc__text">
+						La granja de Charito<br>solo productos <span>orgánicos</span>
+					</p>
+				</div>
+			</div>
+	</section>	
+			<!-- SHOP SECTION  -->
+	<section class="products-wrap">
+					<div class="container shop-container">
+	
+							<h2 class="section-title">Nuestros Productos</h2>
+							<div class="shop-content data" id="root">
+							
+							</div>
+	
+					</div>
+  </section>
+			<!-- DIRECCION -->
+		
+	<section class="direction">
+			<div class="container direction__container">
+				<div class="contact-wrapp">
+					<h4 class="contact-title">Contacto</h4>
+					<address class="address__direction">
+					Comunidad de Quivillungo, Guaranda, Ecuador <br>
+						<a class="tel" href="tel:+13115552368">
+							<i class="fa-solid fa-phone"></i>
+							(202) 456-1111</a>
+						<div class="social-direction">
+							<!-- <ul class="social-direction__icon social_icon_list"> -->
+							<ul class="social-direction__icon">
+								<li class="social_icon_item facebook-icon">
+									<a href="https://facebook.com/" class="social_icon_link" target="_blank">
+										<i class="fa-brands fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="social_icon_item whatsapp-icon">
+									<a class="social_icon_link" href="https://wa.me/1XXXXXXXXXX" target="_blank">
+										<i class="fa-brands fa-whatsapp"></i>
+									</a>
+								</li>
+								<li class="social_icon_item instagram-icon">
+									<a href="//https://www.instagram.com/" class="social_icon_link" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+								</li>
+								<li class="social_icon_item youtube-icon">
+									<a href="https://www.youtube.com/" class="social_icon_link" target="_blank">
+										<i class="fa-brands fa-youtube"></i>
+									</a>
+								</li>
+								<li class="social_icon_item tiktok-icon">
+									<a href="https://www.tiktok.com/" class="social_icon_link" target="_blank">
+										<i class="fa-brands fa-tiktok"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</address>
+					
+				</div>
+				<div class="google-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9713.03636726496!2d-78.99113256773326!3d-1.6030945216077972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d316569f936493%3A0x19a9b3c50dbfdf27!2sComunidad%20de%20Quivillungo!5e1!3m2!1ses!2sru!4v1716978496783!5m2!1ses!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+	</section>
+
+		<!-- FOOTER  -->
+	<footer class="footer">
+			<div class="container">
+				<a class="copyright" href="#0">
+	    		<p>Copyright © <span class="copy">KEAP </span> Web Developer 2024.</p>
+	    	</a>
+			</div>
+	</footer>
+	
+	<script type="module" src="main.js"></script>
+    <script type="module" src="products.js"></script>
+    <script type="module" src="cart.js"></script>
+    <script type="module" src="storageController.js"></script>
+</body>
+</html>
