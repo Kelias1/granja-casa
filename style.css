@@ -857,7 +857,7 @@ a.tel {
 		right: 14px;
 		height: 40vh;
 		background: rgba(255, 255, 255, 0.1);
-		-webkit-backdrop-filter: blur(25px);
+		-webkit-backdrop-filter: blur(100px);
 	}
 
 	.cart-icon-wrap {
