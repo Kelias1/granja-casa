@@ -325,7 +325,7 @@ body{
 	height: 0;
 	width: 300px;
 	background: rgba(255, 255, 255, 0.1);
-	-webkit-backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(150px);
 	backdrop-filter: blur(15px);
 	/*background: #393f4d;*/
 	/* background: #333; */
@@ -337,9 +337,9 @@ body{
 
 .open_menu.abrir {
 	height: 370px;
-	/* background: rgba(255, 255, 255, 0.1);
-	-webkit-backdrop-filter: blur(15px);
-	backdrop-filter: blur(15px); */
+	background: rgba(255, 255, 255, 0.1);
+	-webkit-backdrop-filter: blur(150px);
+	backdrop-filter: blur(15px);
 }
 
 .open_menu .nav-item {
