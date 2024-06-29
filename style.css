@@ -325,6 +325,7 @@ body{
 	height: 0;
 	width: 300px;
 	background: rgba(255, 255, 255, 0.1);
+	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
 	/*background: #393f4d;*/
 	/* background: #333; */
@@ -841,6 +842,7 @@ a.tel {
 
 	.navbar-toggler {
 		display: block;
+		color: #000000;
 	}
 
 	.open_menu {

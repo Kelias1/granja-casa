@@ -150,7 +150,9 @@ function updateProductView(productId){
       else{
         buttonElement.style.backgroundColor = '#90BF2A'
 				buttonElement.style.color = '#ffffff';				
-        buttonElement.textContent = 'Añadir a canasta';
+        buttonElement.textContent = 'Añadir a\r\n';
+				buttonElement.textContent += 'canasta';
+				buttonElement.style.whiteSpace = "pre-line";
       }   
     }
   })
