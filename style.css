@@ -337,9 +337,9 @@ body{
 
 .open_menu.abrir {
 	height: 370px;
-	background: rgba(255, 255, 255, 0.1);
+	/* background: rgba(255, 255, 255, 0.1);
 	-webkit-backdrop-filter: blur(15px);
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px); */
 }
 
 .open_menu .nav-item {
@@ -856,6 +856,8 @@ a.tel {
 	.open_menu.abrir {
 		right: 14px;
 		height: 40vh;
+		background: rgba(255, 255, 255, 0.1);
+		-webkit-backdrop-filter: blur(25px);
 	}
 
 	.cart-icon-wrap {
