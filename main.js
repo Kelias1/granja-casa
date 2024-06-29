@@ -39,7 +39,7 @@ function CartBoxComponent(title, price, image) {
 
          <!-- REMOVE CART  -->
         <div class="remove-btn">
-            <button type="button" class="delete btn-danger">Remove</button>
+            <button type="button" class="delete btn-danger">Eliminar</button>
          </div>
 
          <div class="product_total">
